@@ -1,0 +1,15 @@
+.pagination {
+    width: 80px;
+    height: 4px;
+    border-radius: 20px;
+    background: #fff;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    transform: translate(0);
+}
+
+.pagination.activeBullets{
+    background: purple;
+    box-shadow: 0 0 5px purple;
+    transform: translateY(-20px);
+}
